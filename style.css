@@ -1,1 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.logo {
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+align-items: center;
+
+}
+
+/* #logo {
+    justify-self: start;
+}
+
+#logout {
+    justify-self: end; */
+/* } */
+
+
+.container {
+    display: grid;
+    grid-template-rows: 5vh 80vh 5vh;
+}
+
+main {
+display: grid;
+grid-template-columns: 2fr 4fr 1fr;
+}
+
+main > * {
+    border: 1px solid black
+}
+
+header, main, footer {
+    border: 1px solid black;
+}
